@@ -1,0 +1,160 @@
+body {
+  background-color: #cccccc;
+  margin: 0;
+}
+header {
+  align-self: center;
+  text-align: center;
+  background-color: aliceblue;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+header > h1 {
+  margin: 0;
+}
+
+nav {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+
+nav > a {
+  float: left;
+  padding: 12px 10px 12px 10px;
+  font-size: 17px;
+  text-decoration: none;
+  color: black;
+}
+
+.Login,
+.Logout {
+  float: right;
+}
+
+nav > a:hover {
+  background-color: gray;
+  padding: 11px 10px 11px 10px;
+  border: 1px solid black;
+}
+
+main {
+  background-color: whitesmoke;
+  padding: 25px 25px;
+}
+
+fieldset {
+  border: none;
+}
+
+.Año,
+.Jugadores {
+  width: 50%;
+  float: left;
+}
+
+.Año > input,
+.Jugadores > input {
+  width: 30%;
+}
+
+.Año2 {
+  width: 100%;
+}
+
+footer {
+  align-self: center;
+  text-align: center;
+  background-color: aliceblue;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+/* FORMULARIO */
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  margin-left: 15%;
+  width: 70%;
+  background-color: #aaaaaa;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: gray;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+div .uno {
+  background-color: #dfd7d7;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+input[type="radio"] {
+  width: 2em;
+  margin-left: 3em;
+}
+
+input[type="checkbox"] {
+  width: 2%;
+  margin: 8px;
+  margin-left: 9em;
+}
+
+select {
+  padding: 10px;
+  height: 5em;
+}
+
+option {
+  min-height: 2em;
+  padding: 2px 2px 2px;
+}
+
+.comen {
+  color: darkslateblue;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+}
+
+#usuario,
+#clave {
+  width: 8em;
+  float: left;
+}

@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /controladores/
+Disallow: /css/
+Disallow: /helper/
+Disallow: /vistas/
+Disallow: /interfaces/
+Disallow: /models/
+Disallow: /config/
